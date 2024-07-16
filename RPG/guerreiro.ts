@@ -16,7 +16,7 @@ export class Guerreiro extends Personagem {
     atacarPersonagem(personagem: Personagem, jogar: number): void {
         this.getRandomInt(jogar)
 
-        if (this.getRandomInt(jogar) == 3) {
+        if (this.getRandomInt(jogar) == 3) {jgjhg
             console.log('VOCÊ CONSEGUIU O ATAQUE ESPECIAL!!')
             this.golpeDuplo(personagem)
 
