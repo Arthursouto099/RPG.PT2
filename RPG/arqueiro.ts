@@ -13,6 +13,7 @@ export class Arqueiro extends Personagem {
 
         console.log(`${this.getNome()} USOU "ATAQUE PRECISO"!!!! e causou  ${this.getAtaque() * 5} de dano`);
         console.log(`a vida do ${personagem.getNome()} é de ${personagem.getVida()} hp`);
+        console.log("--------------------------------")
     }
 
     atacarPersonagem(personagem: Personagem): void { 
@@ -36,7 +37,8 @@ export class Arqueiro extends Personagem {
             else {
                 console.log(`${this.getNome()} atacou ${personagem.getNome()}`)
                 console.log(`${personagem.getNome()} perdeu ${this.getAtaque()} de hp`)
-                console.log(`a vida do ${personagem.getNome()} é de ${personagem.getVida()} hp`)
+                console.log(`a vida do ${personagem.getNome()} é de ${personagem.getVida()} hp`) 
+                console.log("--------------------------------")
             }
         }
 
