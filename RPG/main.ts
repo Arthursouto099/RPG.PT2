@@ -4,12 +4,14 @@ import {Guerreiro} from './guerreiro'
 import {Mago} from './mago'
 
 function main():void{
-const p1 = new Arqueiro('tavares', 40, 40)
-const p2 = new Guerreiro('Arthur', 40, 20)
-const p3 = new Mago('souto', 100, 20)
+const p1 = new Arqueiro('Legolas', 40, 20)
+const p2 = new Guerreiro('Leonidas', 40, 20)
+const p3 = new Mago('Mago Negro', 40, 20)
 
-p2.atacarPersonagem(p3, 4)
-p3.atacarPersonagem(p2, 4)
+p1.atacarPersonagem(p3)
+console.log("--------------------------------")
+p3.atacarPersonagem(p1)
+p2.atacarPersonagem(p1)
 
 
 }
