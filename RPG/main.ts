@@ -15,6 +15,8 @@ b1.atacarPersonagem(p1)
 p1.atacarPersonagem(b1)
 p1.ataquePreciso(b1)
 
+console.log('....')
+
 
 
 
