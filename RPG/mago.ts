@@ -40,6 +40,7 @@ export class Mago extends Personagem {
                 console.log(`${this.getNome()} atacou ${personagem.getNome()}`)
                 console.log(`${personagem.getNome()} perdeu ${this.getAtaque()} de hp`)
                 console.log(`a vida do ${personagem.getNome()} é de ${personagem.getVida()} hp`)
+                console.log("--------------------------------")
             }
         }
 

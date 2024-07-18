@@ -1,13 +1,10 @@
 import {Personagem} from "./personagem"
 
-
-
 export class Boss extends Personagem {
 
     constructor(nome: string, vida: number, ataque: number) {
         super(nome, vida, ataque)
     }
-
 
     ataqueTilt(personagem: Personagem) {
        let dano = personagem.getVida() - this.getAtaque() * 2
